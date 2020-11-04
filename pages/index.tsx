@@ -11,10 +11,14 @@ export default function Home({ images }) {
             </p>
 
             <div>
-                {Object.entries(images).map((image: [id: string, value: Image]) => {
+                {images.map((image: Image) => {
                     return (
-                        <div key={image[0]}>
-                            <img src={image[1].src} alt={image[1].description} className="thumbnail"/>
+                        <div key={image.id}>
+                            <img
+                                src={image.src}
+                                alt={image.description}
+                                className="thumbnail"
+                            />
                         </div>
                     )
                 })}

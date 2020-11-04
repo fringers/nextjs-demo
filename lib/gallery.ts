@@ -1,18 +1,29 @@
 import database from '../content/gallery.json'
 
 export interface Image {
+    id: string
     src: string
     description: string
 }
 
-export interface Database {
-    [key: string]: Image
+export function getAllImages(): Image[] {
+    return Object.entries(database).map(image => {
+        return {
+            id: image[0],
+            src: image[1].src,
+            description: image[1].description
+        }
+    })
 }
 
-export function getAllImages(): Database {
-    return database
+export function getAllIds(): string[] {
+    return Object.keys(database)
 }
 
 export function getImageById(id: string): Image {
-    return database[id]
+    return {
+        id,
+        src: database[id].src,
+        description: database[id].description
+    }
 }
