@@ -1,0 +1,42 @@
+{
+  "photo-1": {
+    "src": "/cats/cat-1.jpg",
+    "description": "To jest ładny kot."
+  },
+  "photo-2": {
+    "src": "/cats/cat-2.jpg",
+    "description": "Kot w pozycji siedzącej."
+  },
+  "photo-3": {
+    "src": "/cats/cat-3.jpg",
+    "description": "Śpiący kot."
+  },
+  "photo-4": {
+    "src": "/cats/cat-4.jpg",
+    "description": "Ten kot jest bardzo fajny."
+  },
+  "photo-5": {
+    "src": "/cats/cat-5.jpg",
+    "description": "Kot jest leniwy. Ale jest też ładny."
+  },
+  "photo-6": {
+    "src": "/cats/cat-6.jpg",
+    "description": "Zawstydzony kot."
+  },
+  "photo-7": {
+    "src": "/cats/cat-7.jpg",
+    "description": "Zbliżenie na kota."
+  },
+  "photo-8": {
+    "src": "/cats/cat-8.jpg",
+    "description": "Dwa koty są lepsze niż jeden!"
+  },
+  "photo-9": {
+    "src": "/cats/cat-9.jpg",
+    "description": "Kot w kocu."
+  },
+  "photo-10": {
+    "src": "/cats/cat-10.jpg",
+    "description": "Czy ten kot jest zły? Nie, koty nie są złe!"
+  }
+}
