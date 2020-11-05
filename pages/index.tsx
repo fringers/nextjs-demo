@@ -14,11 +14,15 @@ export default function Home({ images }) {
                 {images.map((image: Image) => {
                     return (
                         <div key={image.id}>
-                            <img
-                                src={image.src}
-                                alt={image.description}
-                                className="thumbnail"
-                            />
+                            <Link href={`/images/${image.id}`}>
+                                <a>
+                                    <img
+                                        src={image.src}
+                                        alt={image.description}
+                                        className="thumbnail"
+                                    />
+                                </a>
+                            </Link>
                         </div>
                     )
                 })}
