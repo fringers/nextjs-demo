@@ -2,7 +2,15 @@ import {getAllIds, getImageById} from "../../lib/gallery";
 
 export default function Image({image}) {
     return (
-        <div>image: {image.id}</div>
+        <>
+            <p>
+                Opis zdjęcia: {image.description}
+            </p>
+
+            <p>
+                <img src={image.src} alt="" style={{maxWidth: '80%'}}/>
+            </p>
+        </>
     )
 }
 
