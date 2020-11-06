@@ -6,7 +6,9 @@ Cats images downloaded from [Pexels](https://www.pexels.com/).
 
 ## Articles
 
-Project description: **Coming soon**
+1. [Creating project (PL)](https://fringers.pl/blog/20201106_statyczna-strona-w-next-js-1-konfiguracja-projektu)
+
+**more articles comming soon**
 
 ## Getting Started
 
