@@ -7,6 +7,7 @@ Cats images downloaded from [Pexels](https://www.pexels.com/).
 ## Articles
 
 1. [Creating project (PL)](https://fringers.pl/blog/20201106_statyczna-strona-w-next-js-1-konfiguracja-projektu)
+2. [Adding pages (PL)](https://fringers.pl/blog/20201110_statyczna-strona-w-next-js-2-dynamiczne-podstrony)
 
 **more articles comming soon**
 
